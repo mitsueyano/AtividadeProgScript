@@ -1,0 +1,71 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div{
+    width: 95%;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+span{
+    text-align: center;
+    font-size: 18px;
+    text-decoration: underline;
+    margin-bottom: 3px;
+}
+
+/* Atividade 1 */
+.prim{
+    color: blue;
+    font-size: 12px;
+    text-align: right;
+}
+.seg{
+    color: blue;
+    font-size: 12px;
+    text-align: left;
+}
+
+/* Atividade 2 */
+.Ativ2 > img{
+    width: 50px;
+}
+
+/*Atividade 3 */
+.vermelho{
+    color: red;
+    font-size: 28px;
+}
+.verde{
+    color: green;
+    font-size: 28px;
+}
+.amarelo{
+    color: yellow;
+    font-size: 28px;
+}
+.azul{
+    color: blue;
+    font-size: 28px;
+}
+.ciano{
+    color: cyan;
+    font-size: 28px;
+}
+.rosa{
+    color: pink;
+    font-size: 28px;
+}
+.roxo{
+    color: purple;
+    font-size: 28px;
+}
+.marrom{
+    color: brown;
+    font-size: 28px;
+}
