@@ -1,0 +1,59 @@
+body, html{
+width: 100%;
+height: 100%;
+margin: 0;
+}
+.bar{
+    width: 100%;
+    height: 10%;
+    background-color: bisque;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.content{
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+
+.receita{
+    color: blue;
+}
+.titulo{
+    text-decoration: underline;
+}
+.modoPreparo{
+    font-style: italic;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+table{
+    border-collapse: collapse;
+}
+table th{
+    padding: 5px;
+}
+table td{
+    padding-left: 10px;
+    text-align: left;
+}
+td:first-child{
+    font-weight: bold;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.beneficios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

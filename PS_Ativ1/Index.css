@@ -1,22 +1,21 @@
 body, html{
     width: 100%;
     height: 100%;
-    border: 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 div{
-    width: 95%;
+    width: 90%;
     border: 2px solid black;
     margin: 5px;
-    padding: 5px;
+    padding: 10px;
 }
 span{
-    text-align: center;
     font-size: 18px;
     text-decoration: underline;
-    margin-bottom: 3px;
+    font-weight: bold;
 }
 
 /* Atividade 1 */
@@ -27,7 +26,6 @@ span{
 }
 .seg{
     color: blue;
-    font-size: 12px;
     text-align: left;
 }
 
@@ -68,4 +66,12 @@ span{
 .marrom{
     color: brown;
     font-size: 28px;
+}
+
+.Ativ4{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    padding: 10px;
 }
