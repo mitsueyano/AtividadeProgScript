@@ -18,3 +18,9 @@ body, html{
     align-items: center;
     font-size: 18px;
 }
+img{
+    width: 200px;
+}
+.titulo{
+    font-weight: bold
+}
